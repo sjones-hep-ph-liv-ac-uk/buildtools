@@ -1,0 +1,7 @@
+default kickstart
+prompt 0
+timeout 600
+label kickstart
+ kernel LT_KSKERNELDIR/vmlinuz
+append initrd=LT_KSKERNELDIR/initrd.img keymap=uk devfs=nomount ramdisk_size=16384 ksdevice=link LT_KSFILE nicdelay=50 biosdevname=0 LT_BADBLOCK
+

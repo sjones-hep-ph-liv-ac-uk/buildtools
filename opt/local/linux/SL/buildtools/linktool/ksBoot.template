@@ -1,0 +1,7 @@
+ckstart
+prompt 0
+timeout 600
+label kickstart
+ kernel LT_KSKERNEL
+ append initrd=SL/initrd.img keymap=uk devfs=nomount ramdisk_size=16384 ksdevice=link LT_KSFILE
+

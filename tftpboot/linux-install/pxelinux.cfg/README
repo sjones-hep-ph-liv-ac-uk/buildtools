@@ -1,0 +1,23 @@
+Naming convention for setup files:
+*********************************
+
+(num of cores)(hw/sw type (32|64))(purpose)(OS Version (SL4|SL5))
+
+Examples:
+
+a) 1core32lcg.ks.cfg
+
+One core, 32 h/w & s/w environment (indicates an x86-32 bit version of the OS).
+Meant for lcg use. Lack of an OS version defaults to SL4.n
+
+
+b) 8core64lcg.ks.cfg
+
+Eight cores, 64 h/w & s/w environment (indicates an x86-64 bit version of the OS).
+Meant for lcg use. Lack of an OS version defaults to SL4.n
+
+c) 8core64lcgSL5.ks.cfg
+
+Eight cores, 64 h/w & s/w environment (indicates an x86-64 bit version of the OS).
+Meant for lcg use. OS version is SL5.n
+
